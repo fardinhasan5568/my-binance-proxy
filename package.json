@@ -1,21 +1,17 @@
 {
-  "name": "binance-proxy-server",
+  "name": "my-render-proxy",
   "version": "1.0.0",
-  "description": "A simple proxy server to forward requests to the Binance API.",
-  "main": "server.js",
+  "description": "Proxy for Binance API",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "proxy",
-    "binance",
-    "api"
-  ],
-  "author": "Your Name",
-  "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
     "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
